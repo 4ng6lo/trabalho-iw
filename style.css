@@ -1,0 +1,59 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+/* Estilo do topo <header> */
+header{
+    background-color: #853769;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+  background-color: #3aaa35;
+  padding: 0 10px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+/* Conteúdo principal: (main, section e aside) */
+main {
+    width: 80%;
+    margin: 30px;
+}
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px; /* Cria um espaço antes de começar o conteúdo lateral (aside) */
+}
+article{
+    background-color: #f9fafb;
+    padding: 15px;
+    margin-top: 15px;
+    border-left: 5px solid #1e3a8a;
+}
+aside {
+    background-color: #e0f2fe;
+    padding: 20px;
+}
+footer {
+    background-color: #111827;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
